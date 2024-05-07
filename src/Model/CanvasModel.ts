@@ -1,4 +1,3 @@
-// src/model/CanvasModel.ts
 export type Line = {
     points: number[];
     color: string;

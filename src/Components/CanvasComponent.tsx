@@ -14,7 +14,7 @@ const CanvasComponent: React.FC = () => {
      };
     
     const handleMouseMove = (e: any) => {
-        if (e.evt.buttons === 1) {  // left mouse button pressed
+        if (e.evt.buttons === 1) { 
             addPointToLine(e.evt.layerX, e.evt.layerY);
         }
     };
